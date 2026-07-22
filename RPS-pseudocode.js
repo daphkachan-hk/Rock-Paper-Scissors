@@ -12,3 +12,14 @@ Note: arrays are not necessary for this project
 //If random number is divisible by 3, assign it the rock value
 //If random number is divisible by 2, assign it the paper value
 //If random number is not divisible by 3 or 2, assign it the scissors value
+
+/*
+Part 2: Player Choice Logic
+Write code so that getHumanChoice takes the user choice and returns a valid choice, depending on the input.
+
+Hint: Use the prompt method to get the user input.
+Note: For now, we can assume that the user will always enter a valid choice.
+*/
+
+//Prompt user to enter Rock, Paper, or Scissors in the prompt window
+//Note to self: Add this before the computer logic so the player cannot see the computer's choice before picking 

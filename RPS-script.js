@@ -1,6 +1,21 @@
 //Using JavaScript to create a game of rock, paper, scissors
  console.log("Hello, World!");
 
+let answer = prompt("Choose a number: 1 (Rock), 2 (Paper), or 3 (Scissors)", "");
+console.log(answer);
+function getHumanChoice() {
+    if (answer === "1") {
+        console.log("Rock");
+    }
+    else if (answer === "2") {
+        console.log("Paper");
+    }
+    else if (answer === "3") {
+        console.log("Scissors");
+    }
+}
+console.log(getHumanChoice());
+
 let randomNumber = Math.floor(Math.random()*100)+1;
 
 function getComputerChoice(randomNumber) {
