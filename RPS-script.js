@@ -30,3 +30,10 @@ function getComputerChoice(randomNumber) {
 
 console.log(randomNumber);
 console.log(getComputerChoice(randomNumber));
+
+let humanScore = 0;
+let computerScore = 0;
+
+console.log("The current score is (Player vs Computer):");
+console.log(humanScore);
+console.log(computerScore);
