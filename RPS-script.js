@@ -46,31 +46,32 @@ function playRound(humanSelection, computerSelection) {
         console.log("You win! Rock beats scissors");
         ++humanScore;
     }
-    else if (humanSelection === "PAPER", computerSelection === "ROCK") {
+    else if (humanSelection === "PAPER" && computerSelection === "ROCK") {
         console.log("You win! Paper beats rock");
         ++humanScore;
     }
-    else if (humanSelection === "PAPER", computerSelection === "PAPER") {
+    else if (humanSelection === "PAPER" && computerSelection === "PAPER") {
         console.log("Draw! Both sides chose paper");
     }
-    else if (humanSelection === "PAPER", computerSelection === "SCISSORS") {
+    else if (humanSelection === "PAPER" && computerSelection === "SCISSORS") {
         console.log("You lose! Scissors beats paper");
         ++computerScore;
     }
-    else if (humanSelection === "SCISSORS", computerSelection === "ROCK") {
+    else if (humanSelection === "SCISSORS" && computerSelection === "ROCK") {
         console.log("You lose! Rock beats scissors");
         ++computerScore;
     }
-    else if (humanSelection === "SCISSORS", computerSelection === "PAPER") {
+    else if (humanSelection === "SCISSORS" && computerSelection === "PAPER") {
         console.log("You win! Scissors beats paper");
         ++humanScore;
     }
-    else if (humanSelection === "SCISSORS", computerSelection === "SCISSORS") {
+    else if (humanSelection === "SCISSORS" && computerSelection === "SCISSORS") {
         console.log("Draw! Both sides chose scissors");
     }
 console.log("The current score is (Player vs Computer):");
 console.log(humanScore);
 console.log(computerScore);
 }
+//There might be a better way to do this? But all I can currently think of is listing out each possible scenario because the explanation for the round results are slightly different in each case.
 
 playRound(humanSelection, computerSelection);
