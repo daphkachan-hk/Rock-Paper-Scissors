@@ -26,3 +26,6 @@ Create 2 new variables to keep track of the player and computer scores in the gl
 //humanScore variable set to zero
 //computerScore variable set to zero
 
+/* Part 4: Logic for Playing a Round
+Write a function that takes the human and computer choices as arguments and increments the round winner's score and logs a winner announcement.
+*/
