@@ -29,3 +29,17 @@ Create 2 new variables to keep track of the player and computer scores in the gl
 /* Part 4: Logic for Playing a Round
 Write a function that takes the human and computer choices as arguments and increments the round winner's score and logs a winner announcement.
 */
+//(Didn't plan all this out) List each combination of player and computer choices and the resulting scores for the 9 possible scenarios...
+
+/* Part 5: Play 5 Rounds for a Full Game
+Write a function that plays 5 rounds total, keeping track of the score and declaring a winner at the end.
+Hint: You need to recall choice functions to get new choices each round
+Previous code will need to be re-worked, possibly into more functions, and return values may need to be changed. 
+Loops are not required (idk what loops are right now anyway)
+*/
+//playGame function
+//playRound function moves into the playGame function
+//increment the rounds played 
+//keep track of the number of rounds played until 5 total
+//declare the winner after 5 rounds played
+
